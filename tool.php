@@ -23,7 +23,7 @@
 		      		<li><a href="plannen.php">Inplannen</a></li>
 		      		<li><a href="planning.php">Planning bekijken</a></li>
 		    	</ul>
-		    	<button class="btn btn-danger navbar-btn" onclick="load()">Help</button>
+		    	<button class="btn btn-danger navbar-btn"><a href='https://www.youtube.com/watch?v=fC0ZxCqw0pA' target="blank">Help</a></button>
 		  	</div>
 		</nav>
 	</div>
@@ -33,6 +33,9 @@
 		<p><br>Dit is de 'plannings tool' voor de spelletjesmiddag 2019 op het Davinci College te Gorinchem.<br>In het menu hierboven kunt u op het kopje 'plannen' klikken om een spel toe te voegen aan de planning.<br>U kunt op het knopje planning klikken om de planning te bekijken.</p>
 	</div>
 
-	<script type="text/javascript" src='js.js'></script>
+	<div id='footer'>
+		<h1>Pieterjan van Dijk &copy;<?php echo date("Y"); ?>.</h1>
+	</div>
+
 </body>
 </html>

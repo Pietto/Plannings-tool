@@ -13,6 +13,7 @@
 			<h2>Plannen</h2>
 		</div>
 
+		<!--navbar-->
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 		    	<div class="navbar-header">
