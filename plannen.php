@@ -44,11 +44,11 @@
 		    	<label class="control-label col-sm-2" for="usr"><p>tijdvak:</p></label>
 		    	<input type="button" id='button expandbtn' class="form-control input" data-toggle="collapse" data-target="#demo" value="selecteer een tijdvak">
 		    	<div id="demo" class="collapse">
-		    		<button>11.00 - 12.00</button>
-		    		<button>12.00 - 13.00</button>
-		    		<button>13.30 - 14.30</button>
-		    		<button>14.30 - 15.30</button>
-		    		<button>15.45 - 16.45</button>
+		    		<button>tijdvak0</button>
+		    		<button>tijdvak0</button>
+		    		<button>tijdvak0</button>
+		    		<button>tijdvak0</button>
+		    		<button>tijdvak0</button>
 			  	</div>
 		    </div>
 		    <div class="form-group">

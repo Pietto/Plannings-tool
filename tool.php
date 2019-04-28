@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="tool.css">
 </head>
 <body>
-	<script src="plannen.js"></script>
 
 	<div id='top'>
 		<div id='header'>
@@ -24,8 +23,8 @@
 		    	</div>
 		    	<ul class="nav navbar-nav">
 		      		<li class="active"><a href="tool.php">Home</a></li>
-		      		<li><a href="plannen.php">Inplannen</a></li>
-		      		<li><a href="planning.php">Planning bekijken</a></li>
+		      		<li><a id='planner' href="plannen.php">Inplannen</a></li>
+		      		<li><a id='planning' href="planning.php">Planning bekijken</a></li>
 		    	</ul>
 		    	<button class="btn btn-danger navbar-btn"><a href='https://www.youtube.com/watch?v=fC0ZxCqw0pA' target="blank">Help</a></button>
 		  	</div>
@@ -34,7 +33,7 @@
 
 	<div id='contentHome'>
 		<h1>Plannings tool spelletjesmiddag 2019</h1>
-		<p><br>Dit is de 'plannings tool' voor de spelletjesmiddag 2019 op het Davinci College te Gorinchem.<br>In het menu hierboven kunt u op het kopje 'plannen' klikken om een spel toe te voegen aan de planning.<br>U kunt op het knopje '<a id='showplanning'>inplannen</a>' klikken om de planning te bekijken.</p>
+		<p><br>Dit is de 'plannings tool' voor de spelletjesmiddag 2019 op het Davinci College te Gorinchem.<br>In het menu hierboven kunt u op het kopje '<a id='showplanner'>Inplannen</a>' klikken om een spel toe te voegen aan de planning.<br>U kunt op het knopje '<a id='showplanning'>planning bekijken</a>' klikken om de planning te bekijken.</p>
 	</div>
 
 	<div id='footer'>
@@ -45,5 +44,6 @@
 		include 'database/connect.php';
 	?>
 
+	<script src="scripts/tool-guide's.js"></script>
 </body>
 </html>
